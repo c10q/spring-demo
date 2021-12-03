@@ -3,7 +3,7 @@ FROM users;
 
 -- User 데이터
 INSERT INTO users
-    (name)
-VALUES ('Alex'),
-       ('Tod'),
-       ('Dave');
+    (name, gender)
+VALUES ('Alex', 1),
+       ('Tod', 1),
+       ('Dave', 2);
